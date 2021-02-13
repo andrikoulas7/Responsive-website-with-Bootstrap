@@ -232,6 +232,15 @@ hr {
         top: 35px;
         right: 25px;
     }
+
+    .point-right::before,
+    .point-left::before {
+        display: none;
+    }
+
+    .menu-item-desc {
+        padding: 50px 20px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -297,4 +306,11 @@ hr {
         transform: scaleX(1);
     }
 
+}
+
+@media (min-width: 1200px){
+    .point-right::before,
+    .point-left::before {
+        display: block;
+    }
 }
