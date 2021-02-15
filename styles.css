@@ -312,5 +312,25 @@ hr {
     .point-right::before,
     .point-left::before {
         display: block;
+        top: 50%;
+        left: initial;
+        transform: translate(0, -50%) rotate(45deg);
+    }
+
+    .point-left::before {
+        left: -12px;
+    }
+
+    .point-right::before {
+        right: -12px;
+    }
+
+    .menu-item-desc p {
+        display: none;
+    }
+
+    .menu-item-desc .btn {
+        color: #fff !important;
+        background-color: #C69963;
     }
 }
