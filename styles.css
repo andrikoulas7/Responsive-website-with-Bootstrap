@@ -223,6 +223,8 @@ hr {
     font-weight: 300;
 }
 
+/* Chef Section */
+
 @media (min-width: 576px) {
     .navbar-brand {
         max-width: 150px;
